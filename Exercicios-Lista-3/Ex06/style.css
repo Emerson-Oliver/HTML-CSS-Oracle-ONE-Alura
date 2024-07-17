@@ -1,0 +1,25 @@
+body {
+    background-color:#000000;
+    color: white;
+}
+
+h1 {
+    color: #D2B48C;
+}
+
+p {
+    color: #4B0082;
+}
+
+a { 
+    align-items: center;
+    font-size: 24px;
+    width: 174px;
+    height: 36px;   
+    color: #22D4FD;        
+}
+
+ul {
+    background-color:#191970;
+    color: #008070;
+}
