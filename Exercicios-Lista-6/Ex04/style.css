@@ -1,0 +1,25 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 100vh; 
+    background-color: #f0f0f0; 
+}
+
+.texto {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.imagem {
+    max-width: 100%;
+    height: auto; 
+}
