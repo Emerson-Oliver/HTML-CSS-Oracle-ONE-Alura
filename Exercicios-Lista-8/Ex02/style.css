@@ -39,7 +39,7 @@ body {
 
 .apresentacao__links {
     display: flex;
-    gap: 20px;
+    gap: 20px; /* Espaçamento entre os botões */
 }
 
 .apresentacao__links__link {
@@ -47,10 +47,18 @@ body {
     width: 280px;
     text-align: center;
     border-radius: 16px;
-    font-size: 24px;
-    padding: 21.5px 0;
+    font-size: 28px; /* Aumentar o tamanho da fonte */
+    padding: 25px 0; /* Aumentar o padding para um tamanho mais adequado */
     text-decoration: none;
     color: #000000;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adicionar sombra */
+    border: 2px solid #FFFFFF; /* Adicionar borda branca */
+    transition: background-color 0.3s, color 0.3s; /* Adicionar transição suave para hover */
+}
+
+.apresentacao__links__link:hover {
+    background-color: #1AABCA; /* Mudar a cor de fundo no hover */
+    color: #FFFFFF; /* Mudar a cor do texto no hover */
 }
