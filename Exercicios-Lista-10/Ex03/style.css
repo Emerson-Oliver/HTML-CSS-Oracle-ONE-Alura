@@ -5,7 +5,8 @@
     padding: 0;
 }
 
-body {    
+body {
+    height:100vh;
     box-sizing: border-box;
     background-color: black;
     color: #F6F6F6;
@@ -16,7 +17,7 @@ body {
 }
 
 .apresentacao {
-    padding: 8% 15%;
+    margin: 10% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -60,7 +61,7 @@ body {
     text-align: center;
     border-radius: 8px;
     font-size: 24px;
-    padding: 21.5px 0;
+    padding: 16px 0;
     text-decoration: none;
     color: #F6F6F6;
     font-family: 'Montserrat', sans-serif;
@@ -76,14 +77,4 @@ body {
     background-color: #22D4FD;
     color: black;
     border-radius: 8px;
-}
-
-.rodape {
-    color: #000000;
-    background-color: #22D4FD;
-    padding: 24px;
-    text-align: center;
-    font-size: 24px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
 }
